@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppBaseKit'
-  s.version          = '1.1.2'
+  s.version          = '1.3.0'
   s.summary          = 'A handy kit of Swift extensions and wrapped class to boost your productivity.'
   s.swift_version    = '4.0'
   
