@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A handy kit of Swift extensions and wrapped class to boost your productivity.
+这一个针对iOS版本的手机崩溃的扩展框架，主要是针对UIKit和Foundation的扩展。
                        DESC
 
   s.homepage         = 'https://github.com/zixun/AppBaseKit'
