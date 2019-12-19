@@ -57,7 +57,7 @@ public extension UIImage {
     /// - parameter block: 绘制block
     ///
     /// - returns: 生成的新图
-    public func drawGraphics(with block:(CGContext,CGRect) -> Void) -> UIImage? {
+    func drawGraphics(with block:(CGContext,CGRect) -> Void) -> UIImage? {
         
         let size = self.size
         let rect = CGRect(x:0, y:0, width:size.width, height:size.height)
@@ -80,7 +80,7 @@ public extension UIImage {
      
      - returns: 生成的图片
      */
-    public class func image(size: CGSize, drawingBlock:(CGContext,CGRect) -> Void) -> UIImage? {
+    class func image(size: CGSize, drawingBlock:(CGContext,CGRect) -> Void) -> UIImage? {
         
         guard size.equalTo(CGSize()) == false else {
             return nil
@@ -107,7 +107,7 @@ public extension UIImage {
      
      - returns: 生成的图片对象
      */
-    public class func image(color:UIColor, size:CGSize) ->UIImage? {
+    class func image(color:UIColor, size:CGSize) ->UIImage? {
         
         guard size.equalTo(CGSize()) == false else {
             return nil

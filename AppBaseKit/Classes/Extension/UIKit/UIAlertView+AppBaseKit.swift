@@ -61,7 +61,7 @@ private class UIAlertViewHandler: NSObject,UIAlertViewDelegate {
         self.clickBlock = clickBlock
     }
     
-    @objc func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+    @objc(alertView:clickedButtonAtIndex:) func alertView(_ alertView: UIAlertView, clickedButtonAt buttonIndex: Int) {
         self.clickBlock(self,buttonIndex)
     }
 }

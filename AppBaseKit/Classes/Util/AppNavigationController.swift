@@ -19,7 +19,7 @@ public class AppNavigationController: UINavigationController {
         let target = self.interactivePopGestureRecognizer!.delegate;
         
         // 创建全屏滑动手势，调用系统自带滑动手势的target的action方法
-        let pan = UIPanGestureRecognizer(target: target, action: Selector("handleNavigationTransition:"))
+        let pan = UIPanGestureRecognizer(target: target, action: Selector(("handleNavigationTransition:")))
         
         // 设置手势代理，拦截手势触发
         pan.delegate = self;

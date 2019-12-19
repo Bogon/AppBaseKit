@@ -18,11 +18,10 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-这一个针对iOS版本的手机崩溃的扩展框架，主要是针对UIKit和Foundation的扩展。
-                       DESC
+  s.description      = 'A handy kit of Swift extensions and wrapped class to boost your productivity.这一个针对iOS版本的手机崩溃的扩展框架，主要是针对UIKit和Foundation的扩展。
+                       '
 
-  s.homepage         = 'https://github.com/zixun/AppBaseKit'
+  s.homepage         = 'https://github.com/Bogon/AppBaseKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Bogon' => 'zhangqixcu@gmail.com' }
   s.source           = { :git => 'https://github.com/Bogon/AppBaseKit.git', :tag => s.version.to_s }
